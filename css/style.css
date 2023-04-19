@@ -137,12 +137,8 @@ img {
         justify-content: center;
     }
 
-    .why-us .col-left {
-        width: 27%;
-    }
-    
-    .why-us .col-right {
-        width: 40%;
+    .container{
+        width: 100%;
     }
 
  }
@@ -160,6 +156,5 @@ img {
         width: 100%;
         margin-bottom: 3rem;
     }
-
 
  }

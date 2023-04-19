@@ -129,6 +129,8 @@ img {
  ************************************************/
 
 
+ /* TABLET */
+
  @media screen and (max-width: 768px) {
     .text-center{
         display: flex;
@@ -143,6 +145,19 @@ img {
         width: 40%;
     }
 
+ }
 
+
+
+ /* MOBILE */
+
+ @media screen and (max-width: 480px) {
+    .row{
+        display: block;
+    }
     
+    .steps .col {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
  }

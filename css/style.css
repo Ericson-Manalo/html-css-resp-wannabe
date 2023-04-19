@@ -132,12 +132,15 @@ img {
  @media screen and (max-width: 768px) {
     .text-center{
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
 
-    img{
-        max-width: 60%;
+    .why-us .col-left {
+        width: 30%;
+    }
+    
+    .why-us .col-right {
+        width: 70%;
     }
 
  }
